@@ -3,13 +3,12 @@ import { TextInput, View } from "react-native";
 
 function Name({ input, setName }) {
 	function handleChange(e) {
-		console.log(e);
-		setName(e.target.value);
+		setName(e);
 	}
 
 	return (
 		<View>
-			<TextInput style={input} placeholder="Enter your name here" onChange={handleChange}></TextInput>
+			<TextInput style={input} placeholder="Enter your name here" onChangeText={handleChange}></TextInput>
 		</View>
 	);
 }

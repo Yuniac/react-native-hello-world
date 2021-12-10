@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, Text, TextInput, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 
 import Secondline from "./components/Secondline.js";
 import Name from "./components/Name.js";
@@ -12,11 +12,7 @@ const styles = StyleSheet.create({
 		alignItems: "center",
 		justifyContent: "space-around",
 	},
-	text: {
-		fontSize: "4rem",
-	},
 	input: {
-		border: "2px solid black",
 		height: "40px",
 		margin: "2rem 0",
 		padding: "5px",
