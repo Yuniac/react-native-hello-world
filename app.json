@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "A hello world app",
+    "githubUrl": "https://github.com/Yuniac/react-native-hello-world/tree/master"
   }
 }
